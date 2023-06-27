@@ -9,11 +9,8 @@ import javafx.scene.*;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-//import javafx.scene.layout.HBox;
-//import javafx.scene.layout.BorderPane;
-//import javafx.scene.layout.VBox;
 
-public class Ques_1 extends Application{
+public class SimpleCalulator extends Application{
 	
 	public void start(Stage stage) throws Exception{
 		GridPane pane = new GridPane();
@@ -44,15 +41,6 @@ public class Ques_1 extends Application{
 		pane.add(btnSubtract, 1, 3);
 		Button btnClear = new Button("Clear");
 		pane.add(btnClear, 3, 3);
-		
-		/*HBox hbox = new HBox(5);
-		BorderPane borderpane = new BorderPane();
-		borderpane.setBottom(hbox);*/
-			
-		
-		/*VBox menuButtons = new VBox();
-		menuButtons.getChildren().addAll(btnAdd, btnSubtract, btnClear);
-		menuButtons.setSpacing(10);*/
 		
 		Scene scene = new Scene(pane);
 		stage.setTitle("Calculator");
