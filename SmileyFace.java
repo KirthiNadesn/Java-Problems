@@ -1,4 +1,4 @@
-package lab5;
+
 
 import javafx.application.Application;
 import javafx.stage.Stage;
@@ -11,7 +11,7 @@ import javafx.scene.shape.Polygon;
 import javafx.scene.shape.Arc;
 import javafx.scene.shape.ArcType;
 
-public class Lab5Ques2 extends Application{
+public class SmileyFace extends Application{
 	
 	public void start(Stage stage) {
 		
