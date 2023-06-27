@@ -1,3 +1,12 @@
+/*
+A program that creates a calculator as follows:
+If the user enters 3.5 in the first text field and 2.1 in the second text field and clicks the Add button, 
+then the result 5.6 will be displayed in the third text field. If the user clicks the Subtract button, 
+then the result 1.4 will be displayed in the third text field. If the user clicks the Clear button, 
+all three text fields should be cleared.
+*/  
+
+
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
